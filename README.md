@@ -51,33 +51,33 @@ A burger logger with MySQL, Node, Express, Handlebars and a homemade ORM. Follow
 
 3. X Still in the `db` folder, create a `seeds.sql` file. In this file, write insert queries to populate the `burgers` table with at least three entries.
 
-4. Run the `schema.sql` and `seeds.sql` files into the mysql server from the command line
+4. X Run the `schema.sql` and `seeds.sql` files into the mysql server from the command line
 
-5. Now you're going to run these SQL files.
+5. X Now you're going to run these SQL files.
 
-   * Make sure you're in the `db` folder of your app.
+   * X Make sure you're in the `db` folder of your app.
 
-   * Start MySQL command line tool and login: `mysql -u root -p`.
+   * X Start MySQL command line tool and login: `mysql -u root -p`.
 
-   * With the `mysql>` command line tool running, enter the command `source schema.sql`. This will run your schema file and all of the queries in it -- in other words, you'll be creating your database.
+   * X With the `mysql>` command line tool running, enter the command `source schema.sql`. This will run your schema file and all of the queries in it -- in other words, you'll be creating your database.
 
-   * Now insert the entries you defined in `seeds.sql` by running the file: `source seeds.sql`.
+   * X Now insert the entries you defined in `seeds.sql` by running the file: `source seeds.sql`.
 
-   * Close out of the MySQL command line tool: `exit`.
+   * X Close out of the MySQL command line tool: `exit`.
 
 #### Config Setup
 
-1. Inside your `burger` directory, create a folder named `config`.
+1. X Inside your `burger` directory, create a folder named `config`.
 
-2. Create a `connection.js` file inside `config` directory.
+2. X Create a `connection.js` file inside `config` directory.
 
-   * Inside the `connection.js` file, setup the code to connect Node to MySQL.
+   * X Inside the `connection.js` file, setup the code to connect Node to MySQL.
 
-   * Export the connection.
+   * X Export the connection.
 
 3. Create an `orm.js` file inside `config` directory.
 
-   * Import (require) `connection.js` into `orm.js`
+   * X Import (require) `connection.js` into `orm.js`
 
    * In the `orm.js` file, create the methods that will execute the necessary MySQL commands in the controllers. These are the methods you will need to use in order to retrieve and store data in your database.
 
@@ -85,42 +85,42 @@ A burger logger with MySQL, Node, Express, Handlebars and a homemade ORM. Follow
      * `insertOne()`
      * `updateOne()`
 
-   * Export the ORM object in `module.exports`.
+   * X Export the ORM object in `module.exports`.
 
 #### Model setup
 
 * Inside your `burger` directory, create a folder named `models`.
 
-  * In `models`, make a `burger.js` file.
+  * X In `models`, make a `burger.js` file.
 
-    * Inside `burger.js`, import `orm.js` into `burger.js`
+    * X Inside `burger.js`, import `orm.js` into `burger.js`
 
     * Also inside `burger.js`, create the code that will call the ORM functions using burger specific input for the ORM.
 
-    * Export at the end of the `burger.js` file.
+    * X Export at the end of the `burger.js` file.
 
 #### Controller setup
 
-1. Inside your `burger` directory, create a folder named `controllers`.
+1. X Inside your `burger` directory, create a folder named `controllers`.
 
-2. In `controllers`, create the `burgers_controller.js` file.
+2. X In `controllers`, create the `burgers_controller.js` file.
 
 3. Inside the `burgers_controller.js` file, import the following:
 
-   * Express
-   * `burger.js`
+   * X Express
+   * X `burger.js`
 
-4. Create the `router` for the app, and export the `router` at the end of your file.
+4. X Create the `router` for the app, and export the `router` at the end of your file.
 
 #### View setup
 
 1. Inside your `burger` directory, create a folder named `views`.
 
-   * Create the `index.handlebars` file inside `views` directory.
+   * X Create the `index.handlebars` file inside `views` directory.
 
-   * Create the `layouts` directory inside `views` directory.
+   * X Create the `layouts` directory inside `views` directory.
 
-     * Create the `main.handlebars` file inside `layouts` directory.
+     * X Create the `main.handlebars` file inside `layouts` directory.
 
      * Setup the `main.handlebars` file so it's able to be used by Handlebars.
 
