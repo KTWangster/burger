@@ -2,11 +2,7 @@
 
 ### Overview
 
-In this assignment, you'll create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Be sure to follow the MVC design pattern; use Node and MySQL to query and route data in your app, and Handlebars to generate your HTML.
-
-### Important
-
-Be sure to utilize the [MYSQL Heroku Deployment Guide](../Supplemental/MySQLHerokuDeploymentProcess.pdf) in order to deploy your assignment.
+A burger logger with MySQL, Node, Express, Handlebars and a homemade ORM. Following the MVC design pattern; use Node and MySQL to query and route data in your app, Handlebars to generate your HTML.
 
 ### Before You Begin
 
@@ -18,17 +14,15 @@ Be sure to utilize the [MYSQL Heroku Deployment Guide](../Supplemental/MySQLHero
 
 * Your app will store every burger in a database, whether devoured or not.
 
-* [Check out this video of the app for a run-through of how it works](burger_demo.mp4).
-
 ## Instructions
 
 #### App Setup
 
-1. Create a GitHub repo called `burger` and clone it to your computer.
+1. X Create a GitHub repo called `burger` and clone it to your computer.
 
-2. Make a package.json file by running `npm init` from the command line.
+2. X Make a package.json file by running `npm init` from the command line.
 
-3. Install the Express npm package: `npm install express`.
+3. X Install the Express npm package: `npm install express`.
 
 4. Create a server.js file.
 
@@ -44,18 +38,18 @@ Be sure to utilize the [MYSQL Heroku Deployment Guide](../Supplemental/MySQLHero
 
 #### DB Setup
 
-1. Inside your `burger` directory, create a folder named `db`.
+1. x Inside your `burger` directory, create a folder named `db`.
 
-2. In the `db` folder, create a file named `schema.sql`. Write SQL queries this file that do the following:
+2. X In the `db` folder, create a file named `schema.sql`. Write SQL queries this file that do the following:
 
-   * Create the `burgers_db`.
-   * Switch to or use the `burgers_db`.
-   * Create a `burgers` table with these fields:
-     * **id**: an auto incrementing int that serves as the primary key.
-     * **burger_name**: a string.
-     * **devoured**: a boolean.
+   * X Create the `burgers_db`.
+   * X Switch to or use the `burgers_db`.
+   * X Create a `burgers` table with these fields:
+     * X **id**: an auto incrementing int that serves as the primary key.
+     * X **burger_name**: a string.
+     * X **devoured**: a boolean.
 
-3. Still in the `db` folder, create a `seeds.sql` file. In this file, write insert queries to populate the `burgers` table with at least three entries.
+3. X Still in the `db` folder, create a `seeds.sql` file. In this file, write insert queries to populate the `burgers` table with at least three entries.
 
 4. Run the `schema.sql` and `seeds.sql` files into the mysql server from the command line
 
