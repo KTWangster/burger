@@ -105,7 +105,7 @@ A burger logger with MySQL, Node, Express, Handlebars and a homemade ORM. Follow
 
 2. X In `controllers`, create the `burgers_controller.js` file.
 
-3. Inside the `burgers_controller.js` file, import the following:
+3. X Inside the `burgers_controller.js` file, import the following:
 
    * X Express
    * X `burger.js`
@@ -114,7 +114,7 @@ A burger logger with MySQL, Node, Express, Handlebars and a homemade ORM. Follow
 
 #### View setup
 
-1. Inside your `burger` directory, create a folder named `views`.
+1. X Inside your `burger` directory, create a folder named `views`.
 
    * X Create the `index.handlebars` file inside `views` directory.
 
@@ -122,7 +122,7 @@ A burger logger with MySQL, Node, Express, Handlebars and a homemade ORM. Follow
 
      * X Create the `main.handlebars` file inside `layouts` directory.
 
-     * Setup the `main.handlebars` file so it's able to be used by Handlebars.
+     * X Setup the `main.handlebars` file so it's able to be used by Handlebars.
 
      * Setup the `index.handlebars` to have the template that Handlebars can render onto.
 
@@ -153,3 +153,4 @@ If you have any questions about this project or the material we have covered, pl
 !!! Look at Lesson 14.3
 11-Quotes App
 Maybe 12-OrmApp ?
+14.18 Catt App
