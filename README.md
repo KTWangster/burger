@@ -79,11 +79,11 @@ A burger logger with MySQL, Node, Express, Handlebars and a homemade ORM. Follow
 
    * X Import (require) `connection.js` into `orm.js`
 
-   * In the `orm.js` file, create the methods that will execute the necessary MySQL commands in the controllers. These are the methods you will need to use in order to retrieve and store data in your database.
+   * X In the `orm.js` file, create the methods that will execute the necessary MySQL commands in the controllers. These are the methods you will need to use in order to retrieve and store data in your database.
 
-     * `selectAll()`
-     * `insertOne()`
-     * `updateOne()`
+     * X `selectAll()`
+     * X `insertOne()`
+     * X `updateOne()`
 
    * X Export the ORM object in `module.exports`.
 
@@ -124,7 +124,7 @@ A burger logger with MySQL, Node, Express, Handlebars and a homemade ORM. Follow
 
      * X Setup the `main.handlebars` file so it's able to be used by Handlebars.
 
-     * Setup the `index.handlebars` to have the template that Handlebars can render onto.
+     * X Setup the `index.handlebars` to have the template that Handlebars can render onto.
 
      * Create a button in `index.handlebars` that will submit the user input into the database.
 
@@ -153,4 +153,6 @@ If you have any questions about this project or the material we have covered, pl
 !!! Look at Lesson 14.3
 11-Quotes App
 Maybe 12-OrmApp ?
+14.08 Wishes
 14.18 Catt App
+REMEMBER TO DELETE PASSWORD!!
