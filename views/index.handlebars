@@ -22,7 +22,7 @@
                     </h4>
                     <form action="/{{this.id}}?_method=PUT" method="POST">
                     <input type="hidden" name="devoured" value="true">
-                    <button class= "form-control" type="submit">Nom Nom!</button>
+                    <button class= "changeDevoured" data-id="{{id}}" type="submit" data-newdevour="{{newdevour}}">Nom Nom!</button>
                     </form>
                 </li>
                 {{/unless}}
@@ -40,7 +40,7 @@
                 </h4>
                 <form action="/{{this.id}}?_method=PUT" method="POST">
                 <input type="hidden" name="devoured" value="false">
-                <button class= "form-control" type="submit">Gimme more!</button>
+                <button class= "gimmeMore" type="submit">Gimme more!</button>
                 </form>
             </li>
             {{/if}}
@@ -58,10 +58,10 @@
 
             <div class="form-group">
                 <label for="burgerName"><h3 class="header-format">What burger would you like?</h3></label>
-                <input class="form-control" type="text" id="burgerName" name="burger_name" placeholder="List your burger here!">
+                <input class="form-control" type="text" id="burgerName" name="burgerName" placeholder="List your burger here!">
             </div>
 
-            <button class= "form-control" type="submit" name="devoured" value="0">Feed me!</button>
+            <button class= "feedMe" type="submit" name="devoured" value="0">Feed me!</button>
         </form>
     </div>      
 </div>
